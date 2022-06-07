@@ -1,0 +1,103 @@
+body {
+    margin: 0 auto;
+    background-color: #f8f8f8;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow: 2px 2px 4px lightgray;
+    text-align: center;
+}
+
+header img {
+    margin-top: 15px;
+    height: 50px;
+    text-align: center;
+}
+
+header .logout {
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+main {
+    width: 100%;
+}
+
+.info {
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: lightgray solid 2px ;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 4px 4px 4px lightgray;
+}
+
+.info h2 {
+    padding-top: 20px;
+    text-align: center;
+    border-bottom: solid 2px #31A263;
+}
+
+.greeting {
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.info {
+    margin-bottom: 50px;
+}
+
+.info img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px ;
+    padding: 10px 5px;
+    border: solid lightgray 2px;
+}
+
+.info .contents {
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.info .comments {
+    border-top: dotted 2px lightgray;
+    margin-top: 50px;
+    padding: 20px 20px;
+}
+
+.info .button {
+    border: 1px solid lightgray;
+    padding: 6px 40px;
+    color: white;
+    background-color: #31A263;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    text-align: center;
+}
+
+footer {
+    width: 100%; 
+    height: 40px;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+    border-top: lightgray solid 2px;
+}
